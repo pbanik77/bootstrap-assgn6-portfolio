@@ -1,0 +1,89 @@
+
+
+*{margin: 0;
+	padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,669;0,700;0,800;0,900;1,400;1,500;1,600;1,669;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap')
+h1, h2, h3, h4, h5, {
+	font-family: 'Playfair Display', serif
+}
+span, input, button, p, h6{
+	font-family: 'Work Sans', sans-serif;
+}
+a:hover{
+	text-decoration: none;
+}
+/*header section css here*/
+
+.container{
+	padding-left: 120px;
+}
+
+.header{
+	width: 100%;
+	background: url(dream.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	
+}
+.nav-link{
+	color: white !important;
+	font-size: 15px;
+	font-weight: 500 !important;
+	text-transform: uppercase;
+}
+.banner-content{
+	margin: 185px;
+	text-align: center;
+	color: white !important;
+}
+.banner.content h5{
+	text-transform: uppercase;
+
+}
+.banner-content .title{
+	font-size: 56px;
+}
+.banner-content{
+	font-style: italic !important;
+	font-size: 56px
+	line-height: 15px;
+}
+/*down arrow css here*/
+.down-arrow{
+	text-align: center;
+}
+.down-arrow a i{
+	background: transparent;
+	color: white;
+	padding: 88px;
+}
+.footer{
+	width: 100%
+}
+.footer .nav-link{
+	color: black !important;
+	font-size: 10px;
+	font-weight: 400 !important;
+
+}
+ 
+ .footer h2{
+ 	text-align: center;
+ 	font-style: italic;
+ }
+ .footer h5{
+ 	text-align: center;
+ 	font-size: 12px;
+
+ }
+ .footer .sign img{
+ 	padding-left: 370px;
+ 	
+ }
+ .footer .nav-link .img{
+ 	margin-top: -400px !important;
+ }
+
